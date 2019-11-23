@@ -1,0 +1,3 @@
+This project was completed for my Advanced Data Science class in 2019. I worked on a team with David Lutze and Nathan Philliber. We were required to perform cleaning and feature engineering on a dataset of Iowan liquor sales. Using our implementation of linear regression, we then created two models for the data: one focusing on interpretability and the other prioritizing predictive accuracy. We then wrote a report detailing our work and comparing these models.
+
+**Exemplifies skills in**: feature engineering, implementing and performing basic modeling
