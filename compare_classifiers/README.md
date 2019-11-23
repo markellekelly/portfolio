@@ -1,0 +1,3 @@
+This project was completed for my Advanced Data Science class in 2019. I worked on a team with Steven Bradley and Andrew Engel. Given the Stanford dataset of movie review text, we predicted whether reviews were positive or negative. To do this, we performed feature extraction and implemented logistic regression, linear discriminant analysis, and support vector machines. We then compared these three classifiers.
+
+**Exemplifies skills in**: NLP, machine learning implementation
