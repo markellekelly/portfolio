@@ -1,0 +1,203 @@
+Markelle Kelly, Josh Abel, Daniel DeFoe
+
+Part 1: K-Means
+Our K-Means algorithm outputs a confusion matrix of partitions vs. clusters, the best overall accuracy achieved, and a list of cluster IDs with the number of items in each. There are also commented out print statements that can be toggled for the top three feature values for each mean of the final centroids, and average distance in arbitrary units between final centroids of myKM and the scikit-learn K-means. For example:
+CLUSTER CARDINALITY FOR BEST CLUSTERS: 
+{0: 397, 1: 336, 2: 555, 3: 3258, 4: 207, 5: 117, 6: 229, 7: 815, 8: 117, 9: 168, 10: 252, 11: 228, 12: 563, 13: 473}
+
+CONFUSION MATRIX: 
+
+ ['23', '15', '27', '27', '2', '27', '15', '27', '31', '25', '14', '2', '14', '27']
+[[ 169    0    0    0    0    0    7    0    1    4    0    4    9  254]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [   7    0    0    0    0    0  149    0    3   10    0    1   11  249]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [  26    0    0    0    0    0   37    0   28    1    0    0   16   81]
+ [  13    0    0    0    0    0   46    0    0   49    0    3   68  172]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0]
+ [  30    0    0    0    0    0   22    0    5   15    0  323   24  237]
+ [  24    0    0    0    0    0   43    0   12   13    0   12  358  649]
+ [  38    0    0    0    0    0   58    0    1    5    0   15   60 1552]]
+
+
+Best myKM accuracy after 7 runs: 0.23998353856975044
+
+Part 2: Decision Trees
+Our decision trees algorithm outputs the total number of records, split by train and test, the number of labels and a list of the labels themselves, followed by committee-by-committee precision, recall, and F1 scores. Finally, it prints an overall accuracy and F1 score for the entire classification. For example:
+Number of records = 7716 (5401 train, 2315 test)
+Number of labels = 40
+Labels: ['31' '52' '16' '46' '88' '27' '148' '56' '132' '70' '25' '32' '76' '50'
+ '62' '15' '145' '64' '3' '14' '63' '2' '45' '69' '131' '53' '65' '18'
+ '55' '43' '41' '139' '11' '12' '49' '4' '61' '66' '22' '23']
+Metrics for Committee 31:
+	Precision = 0.08333333333333333
+	Recall = 0.030303030303030304
+	F1 score: 0.044444444444444446
+Metrics for Committee 52:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 16:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 46:
+	Precision = 0.10240427426536064
+	Recall = 0.5808080808080808
+	F1 score: 0.17411052233156699
+Metrics for Committee 88:
+	Precision = 0.2972972972972973
+	Recall = 0.16923076923076924
+	F1 score: 0.21568627450980393
+Metrics for Committee 27:
+	Precision = 0.25
+	Recall = 0.13178294573643412
+	F1 score: 0.17258883248730963
+Metrics for Committee 148:
+	Precision = 0.16666666666666666
+	Recall = 0.02564102564102564
+	F1 score: 0.044444444444444446
+Metrics for Committee 56:
+	Precision = 0.15267175572519084
+	Recall = 0.13986013986013987
+	F1 score: 0.145985401459854
+Metrics for Committee 132:
+	Precision = 0.21052631578947367
+	Recall = 0.28415300546448086
+	F1 score: 0.24186046511627907
+Metrics for Committee 70:
+	Precision = 0.17777777777777778
+	Recall = 0.07017543859649122
+	F1 score: 0.10062893081761007
+Metrics for Committee 25:
+	Precision = 0.25
+	Recall = 0.06451612903225806
+	F1 score: 0.10256410256410256
+Metrics for Committee 32:
+	Precision = 0.14814814814814814
+	Recall = 0.05
+	F1 score: 0.07476635514018691
+Metrics for Committee 76:
+	Precision = 0.24193548387096775
+	Recall = 0.3191489361702128
+	F1 score: 0.27522935779816515
+Metrics for Committee 50:
+	Precision = 0.2601626016260163
+	Recall = 0.24615384615384617
+	F1 score: 0.25296442687747034
+Metrics for Committee 62:
+	Precision = 0.13157894736842105
+	Recall = 0.16129032258064516
+	F1 score: 0.14492753623188406
+Metrics for Committee 15:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 145:
+	Precision = 0.76
+	Recall = 0.27941176470588236
+	F1 score: 0.40860215053763443
+Metrics for Committee 64:
+	Precision = 0.21052631578947367
+	Recall = 0.04
+	F1 score: 0.06722689075630252
+Metrics for Committee 3:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 14:
+	Precision = 0.25
+	Recall = 0.13186813186813187
+	F1 score: 0.17266187050359713
+Metrics for Committee 63:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 2:
+	Precision = 0.26666666666666666
+	Recall = 0.24489795918367346
+	F1 score: 0.2553191489361702
+Metrics for Committee 45:
+	Precision = 0.24242424242424243
+	Recall = 0.17777777777777778
+	F1 score: 0.20512820512820512
+Metrics for Committee 69:
+	Precision = 0.14285714285714285
+	Recall = 0.06896551724137931
+	F1 score: 0.09302325581395349
+Metrics for Committee 131:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 53:
+	Precision = 0.375
+	Recall = 0.14285714285714285
+	F1 score: 0.20689655172413793
+Metrics for Committee 65:
+	Precision = 0.18604651162790697
+	Recall = 0.11940298507462686
+	F1 score: 0.14545454545454545
+Metrics for Committee 18:
+	Precision = 0.058823529411764705
+	Recall = 0.057692307692307696
+	F1 score: 0.05825242718446602
+Metrics for Committee 55:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 43:
+	Precision = 0.34375
+	Recall = 0.21568627450980393
+	F1 score: 0.26506024096385544
+Metrics for Committee 41:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 139:
+	Precision = 0.25
+	Recall = 0.03333333333333333
+	F1 score: 0.058823529411764705
+Metrics for Committee 11:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 12:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 49:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 4:
+	Precision = 0.5
+	Recall = 0.3
+	F1 score: 0.375
+Metrics for Committee 61:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 66:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 22:
+	Precision = 0.0
+	Recall = 0.0
+	F1 score: 0.0
+Metrics for Committee 23:
+	Precision = 0.26666666666666666
+	Recall = 0.11428571428571428
+	F1 score: 0.16
+Overall Accuracy: 0.16241900647948165
+Overall F: 0.11154124776594386
+
+Part 3: Speaker Attribution
+Our speaker attribution neural network outputs the accuracy/precision, recall, and F1-score achieved. For example:
+ACCURACY/PRECISION:  0.2634539753912448
+RECALL:  0.2990452725592855
+F1-SCORE:  0.2686994182501179

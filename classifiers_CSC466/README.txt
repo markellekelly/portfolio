@@ -1,0 +1,3 @@
+This project was completed for my Knowledge Discovery from Data class in May 2019. I worked on a team with Josh Abel and Daniel DeFoe. For this project, we performed feature extraction on transcripts from California Senate hearings. We then implemented K-Means clustering and a decision tree algorithm to classify the Senate committee of single utterances (usually a sentence or two) and entire hearings. We also experimented with a scikit-learn neural network for classifying individual Senate speakers.
+
+**Exemplifies skills in:** NLP, machine learning implementation
