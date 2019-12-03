@@ -1,0 +1,7 @@
+Project 3 README
+
+The src folder contains stacia.py itself as well as the files it depends on. Stacia can be run in the terminal with python3 stacia.py from this directory. Src also contains topicPredictor.py and modelBuilder.py, which we used to create the models (stored as .pkl files in the directory).
+
+The sustainer folder contains the code for our data sustainer. Running sustain.py will run the other .sql and .py files to build and fill our tables. Any errors are sent to sustainerlog.txt.
+
+The reddit folder contains reddit.py, which is the primary file for our reddit bot. It calls staciareddit.py, a modified version of stacia.py, and is supported by other files.

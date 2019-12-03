@@ -1,0 +1,18 @@
+insert into Schedule (FirstName, LastName, Locations, StartTime, EndTime, Year, Types, Courses, Sections, Days, Quarter) values
+('Sara','Bahrami','14-219','11:00:00 AM','12:00:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('John','Bellardo','14-235D','01:30:00 PM','02:30:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Bill','Foote','14-203','03:00:00 PM','04:30:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Lana','Grishchenko','25-338','02:00:00 PM','03:00:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Michael','Haungs','14-228','12:00:00 PM','02:30:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('David','Janzen','14-212','03:10:00 PM','04:00:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Aaron','Keen','14-228','01:00:00 PM','03:00:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Foaad','Khosmood','14-213','03:00:00 PM','04:00:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Toshihiro','Kuboi','92M-B105','05:00:00 PM','07:30:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Franz','Kurfess','14-218','04:40:00 PM','05:30:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Kurt','Mammen','14-206','11:00:00 AM','12:00:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Maria','Pantoja','14-211','11:00:00 AM','12:00:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Hugh','Smith','14-216','12:00:00 PM','01:30:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Lubomir','Stanchev','14-230','11:00:00 AM','12:00:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('George','Taylor','116-201','01:00:00 PM','02:00:00 PM','2019','OH','NULL','NULL','R','Spring'),
+('Ignatios','Vakalis','14-217','10:00:00 AM','11:00:00 AM','2019','OH','NULL','NULL','R','Spring'),
+('Kurt','Voelker','14-202','11:10:00 AM','12:00:00 PM','2019','OH','NULL','NULL','R','Spring');

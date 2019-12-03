@@ -1,0 +1,195 @@
+What senior projects has Dekhtyar advised?,research
+What is Phillip Nico's polyrating?,rating
+What journals are Zoe Wood published in?,research
+What journals are Cal Poly computer science professors published in?,research
+What courses has Lubomir Stanchev taught recently?,courses
+Who are the professors with a polyrating above 2?,rating
+What are Foaad Khosmood’s research interests?,research
+What courses has Lubomir Stanchev taught recently?courses
+What published research projects does Christian Eckhardt have?,research 
+When is CSC466?,courses
+What is Foaad Khosmood's presents clearly score?,ratings
+What classes are taught by Foaad Khosmood or Tim Kearns?,courses
+What are the research interests of Lubomir Stanchev?,research
+What are the interests of Lubomir Stanchev?,research
+What does Tim Kearns research?,research
+What research does Tim Kearns do?,research
+What topics does Tim Kearns research?,research
+What are Foaad Khosmood’s research interests?,research
+Is Alex Dekhtyar interested in Machine Learning?,research
+Is Machine Learning of interest to Foaad Khosmood?,research
+What is Foaad Khosmood researching?,research
+What is Foaad Khosmood working on?,research
+What professors are interested in Game Design and Development?,research
+Who is studying Game Design and Development?,research
+What are all the computer science professors’ research areas?,research
+Which research area has the most professors?,research
+Which research area has the least professors?,research
+What is Foaad Khosmood’s area of study?,research
+Does Professor Khosmood study Machine Learning?,research
+Does Professor Knosmood work on Machine Learning?,research
+What does Kearns work on?,research
+What field is Kearns in?,research
+What is Professor Kearns’s field?,research
+What are Professor Kauffman’s professional interests?,research
+What is Foaad Khosmood’s concentration?,research
+What research area does Foaad Khosmood have expertise in?,research
+Does Lubomir Stanchev have expertise in Animation and Motion Capturing?,research
+Which professors specialize in Animation and Motion Capturing?,research
+Where should I go about Animation and Motion Capturing?,research
+What is Daniel Kauffman’s poly rating?,rating
+What is the polyrating of Daniel Kauffman?,rating
+What is Lubomir Stanchev’s rating on polyratings?,rating
+How good of a professor is Fred Abler?,rating
+Is Fred Abler a good professor? ,rating
+Is Christian Eckhardt well liked?,rating
+Who are the top 3 rated professors by average poly rating?,rating
+What professors have a rating of at least 2?,rating
+Does Christian Eckhardt or Alex Dekhtyar have a higher poly rating?,rating
+Which of Fred Abler and Christian Eckhardt has the highest polyrating?,rating
+What is the URL for Daniel Kauffman’s polyrating? ,rating
+Who are the professors with a polyrating over 2?,rating
+What courses will Lubomir Stanchev teach in Fall 2020?,courses
+What courses is  Lubomir Stanchev teaching this quarter?,courses
+What courses is Lubomir Stanchev teaching next quarter?,courses
+Is Foaad Khosmood teaching CSC466 in Winter?,courses
+Who will teach CSC466 in Fall 2020?,courses
+Will Alex Dekhtyar teach any Knowledge and Discovery from Data in Fall 2019? ,courses
+Who teaches CSC466?,courses
+Who teaches Knowledge and Discovery from Data?,courses
+How many courses is Alex Dekhtyar teaching?,courses
+How many professors teach CSC466 right now?,courses
+Does Bill Foote teach upper division classes?, courses
+Right now what is Christian Eckhardt teaching?,courses
+What courses has Lubomir Stanchev taught recently?,courses
+What is Lubomir Stanchev teaching this quarter?,courses
+Does Tim Kearns teach design and analysis of algorithms?,courses
+Where is Lubomir Stanchev teaching right now?,contact
+Who has taught CSC466 in the past?,courses
+What courses has Tim Kearns taught in the past?,courses
+What courses did Tim Kearns teach in Winter 2019?,courses
+Who has taught CSC466 before?,courses
+Has Professor Kearns taught CSC466 before?,courses
+Where did Christian Eckhardt go to school?,history
+What degrees does Daniel Kauffman have? ,history
+What schools has Alex Dekhtyar attended?,history
+Does Christian Eckhardt have a masters degree?,history
+Who are the lecturers in the CSSE program at cal poly? ,jobs
+What school did Alex Dekhtyar get their degree from?,history
+How many degrees does Bill Foote have?,history
+What computer science professors went to UCLA?,history
+What areas does Bill Foote have a PHD in?,history
+Which computer science professors are Cal Poly alumni?,history
+Did Christian Eckhardt study at Cal Poly?,history
+When was Christian Eckhardt a professor at Cal Poly?,history
+What is the highest degree of Daniel Kauffman?,history
+Where did Alex Dekhtyar get their most recent degree?,history
+What did Lubomir Stanchev get their highest degree in?,history
+What is Christian Eckhardt’s highest degree?,history
+Has there ever been a professor Alex Dekhtyar in Cal Poly CSSE?,history
+Did Irene Humer ever teach in the computer science department?,history
+Who are Cal Poly’s computer science professors emeriti?,history
+What computer science professors are retired from Cal Poly?,history
+Who are the retired cs professors?,history
+Who are all the past cs professors?,history
+Who are the retired computer science professors?,history
+What published research projects does Christian Eckhardt have? ,research
+How many research papers has Irene Humer submitted for Cal Poly?,research
+How many research papers did Irene Humer submitted for Cal Poly?,research
+What papers has Bill Foote contributed to the Cal Poly Digital Commons?,research
+Has Irene Humer published any papers?,research
+Does Irene Humer have any published papers?,research
+What research papers has Christian Eckhardt written?,research
+What research papers has Christian Eckhardt published?,research
+Does Tim Kearns have anything in the digital commons?,research
+What senior projects has Christian Eckhardt advised on?,research
+How many senior projects has Alex Dekhtyar advised?,research
+What senior projects did Bill Foote advise last year?,research
+Whose senior projects has Bill Foote advised?,research
+What senior projects has Bill Foote advised?,research
+What is Irene Humer researching?,research
+What computer science professors have published papers on Deep Learning?,research
+Where can I learn more about Christian Eckhardt’s research?,research
+What professor published the paper Group work versus informal collaborations: Student perspectives?,research
+In what journals has Christian Eckhardt been published?,research
+What journals has Christian Eckhardt published papers in?,research
+What journals are Cal Poly computer science professors published in?,research
+What is Erin Sheets’s email?,contact
+How can I contact Bill Foote?,contact
+What is Christian Eckhardt’s contact information?,contact
+What is Erin Sheets’s phone number?,contact
+Who has the phone number 805-535-5353?, contact
+What number do I call to reach Erin Sheets?,contact
+What number do I call Erin Sheets at?,contact
+How can I reach Bill Foote?,contact
+Where is Bill Foote’s office?,contact
+Whose office is 14-011?,contact
+What CSSE faculty is in 14-011?,contact
+In what room is Bill Foote’s office?,contact
+Where can I find Lubomir Stanchev’s website?,contact
+Does Alex Dekhtyar have a personal website?,contact
+Does Alex Dekhtyar have a website?,contact
+What is Christian Eckhardt’s home page?,contact
+What professors have offices in building 14?,contact
+What is the email address of Christian Eckhardt?,contact
+Does Alex Dekhtyar have office hours at 3pm on Wednesdays?,contact
+Does Alex Dekhtyar have office hours at 3pm?,contact
+What is the office of Erin Sheets?,contact
+What days does Erin Sheets teach?,contact
+What are the names and emails of all computer science associate professors?,contact
+Who are the computer science lecturers at Cal Poly?,jobs
+Who shares an office with Erin Sheets?,contact
+Does anyone share an office with Erin Sheets?,contact
+Is Christian Eckhardt hosting office hours right now?,contact
+Is Christian Eckhardt in their office now?,contact
+What are Foaad Khosmood office hours Tuesday?,contact
+Who is the CSSE department chair?,jobs
+What is the job title of Bill Foote?,jobs
+What is Bill Foote’s title?,jobs
+Is Foaad Khosmood an assistant professor?,jobs
+Is Foaad Khosmood a lecturer or a professor?,jobs
+How many professors are in the CSSE department?,jobs
+Who are the lecturers in the computer science department?,jobs
+Who is the department chair of the CSSE department at Cal Poly?,jobs
+Is Lubomir Stanchev a lecturer?,jobs
+What is the position of Christian Eckhardt?,jobs
+What is Alex Dekhtyar’s position at Cal Poly?,jobs
+What is the position of Alex Dekhtyar at California Polytechnic State University San Luis Obispo?,jobs
+Is Christian Eckhardt a lecturer?,jobs
+How many faculty members are there in the CSSE department?,jobs
+How many faculty members are there in the department of Computer Science and Software Engineering?,jobs
+How many Eckhardts are there in the CSSE department at Cal Poly?,jobs
+Who are the professors with the last name Foote?,jobs
+How many professors work for the CSSE department?,jobs
+Where is Christian Eckhardt right now?,contact
+Right now where is Christian Eckhardt?,contact
+Where is Christian Eckhardt?,contact
+At the moment where is Daniel Kauffman?,contact
+Where is Lubomir Stanchev currently?,contact
+Where will Lubomir Stanchev be at 3pm?,contact
+At 12pm where will Alex Dekhtyar be?,contact
+Where can I find Kearns’s office?,contact
+Where can I find Dekhtyar at 1pm?,contact
+Is there a professor Kauffman here?,jobs
+Does a professor Kauffman teach here?,jobs
+Does Daniel Kauffman teach here?,jobs
+What teachers are doing research in Machine Learning?,research
+What are the office hours for professor Kearns?,contact
+What courses does Professor Khosmood teach?,courses
+What is the email for Staley?,contact
+Where did Stanchev go to school?,history
+Who are the highest 7 rated professors?,rating
+Who is the newest teacher in the faculty?,history
+Who is the newest professor?,history
+Who is the longest tenured CS professor at Cal Poly?,history
+Who has taught at Cal Poly the longest?,history
+What professor has the email tkearns@calpoly.edu?,contact
+Who is the advisor for the Color Coded club?, clubs
+What professor advises the Color Coded club?, clubs
+What clubs does Kearns advise?, clubs
+What clubs is Professor Khosmood involved with?, clubs
+What club does Kearns advise?,clubs
+Does Kearns advise Color Coded?,clubs
+How many clubs does Professor Foote advise?,clubs
+
+
