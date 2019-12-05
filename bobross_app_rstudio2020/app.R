@@ -12,11 +12,11 @@ library(NLP)
 library(class)
 library(openNLP)
 
-dat <- read.csv("data/bob-ross.csv")
+dat <- read.csv("./bob-ross.csv")
 source("funcs.R")
-df <- read.csv("data/by_season.csv")
-col1 <- read.csv("data/col1.csv")[3:18]
-col2 <- read.csv("data/col2.csv")[3:8]
+df <- read.csv("by_season.csv")
+col1 <- read.csv("col1.csv")[3:18]
+col2 <- read.csv("col2.csv")[3:8]
 seasons <- reshape2::melt(df, id.var='SEASON')
 var_opt = unique(seasons$variable)
 var_opt_2 = colnames(col1)[1:8]
@@ -47,6 +47,7 @@ ui <- fluidPage(
       checkboxInput("flowers", "Flowers", value = FALSE),
       checkboxInput("bushes", "Bushes", value = FALSE),
       checkboxInput("moon", "Moon", value = FALSE),
+      checkboxInput("cabin", "Cabin", value = FALSE),
       checkboxInput("bob", "Bob Ross", value = FALSE),
       actionButton("button", "Generate title!")
     )),
@@ -59,6 +60,7 @@ ui <- fluidPage(
     ,
           imageOutput("image5", height = "3px", width = "3px"),
           imageOutput("image3", height = "3px", width = "3px"),
+          imageOutput("image9", height = "3px", width = "3px"),
           imageOutput("image4", height = "3px", width = "3px"),
           imageOutput("image8", height = "3px", width = "3px"),
           imageOutput("image7", height = "3px", width = "3px"),
@@ -86,7 +88,7 @@ ui <- fluidPage(
                checkboxGroupInput("var", "Element:",
                                   choices=var_opt,
                                   selected="CLOUDS")),
-             mainPanel(plotOutput("plot"))
+             mainPanel(plotOutput("plot"),h5("Note: There were a total of 13 episodes in each season."))
            )
 ),tabPanel("Episode Recommendations",
            fluidRow(column(12,h3("What episodes should you watch?"))),
@@ -178,6 +180,9 @@ server <- function(input, output) {
     inputs <- c(str_to_upper(sky),str_to_upper(input$ground))
     if (input$ground == "river") {
       inputs <- c(inputs, "GRASS")
+      if (input$bushes != TRUE) {
+        inputs <- c(inputs, "BUSHES")
+      }
     }
     if (input$sky == "mountains" | input$sky == "snow") {
       inputs <- c(inputs,"SNOWY_MOUNTAIN","MOUNTAIN","CLOUDS","WINTER")
@@ -202,6 +207,9 @@ server <- function(input, output) {
     }
     if (input$bushes == TRUE) {
       inputs <- c(inputs, "BUSHES")
+    }
+    if (input$cabin == TRUE) {
+      inputs <- c(inputs, "CABIN", "STRUCTURE")
     }
     if (!is.null(input$frame)) {
       if (input$frame == "wood") {
@@ -371,6 +379,24 @@ server <- function(input, output) {
       ))
     }  }, deleteFile = FALSE)
   
+  
+  output$image9 <- renderImage({
+    if (is.null(input$cabin))
+      return(NULL)
+    
+    if (input$cabin == TRUE) {
+      return(list(
+        src = "www/cabin.png",
+        contentType = "image/png",
+        alt = "cabin"
+      ))
+    } else {
+      return(list(
+        src = "www/none.png",
+        contentType = "image/png",
+        alt = "none"
+      ))
+    }  }, deleteFile = FALSE)
   
   
   output$image7 <- renderImage({
