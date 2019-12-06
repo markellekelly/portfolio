@@ -1,0 +1,3 @@
+This project was completed in 2018 for my Data Science class. I worked independently. I cleaned, performed exploratory data analysis, extracted features with topic modeling, and modeled a dataset on US visa requests. Note that 03-Exploratory.ipynb contains three interactive visualizations, which do not work on GitHub or Binder. 
+
+**Exemplifies skills in:** data cleaning, EDA, text-based feature extraction, modeling
