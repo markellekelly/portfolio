@@ -1,0 +1,3 @@
+This project on neural networks was completed for my Advanced Data Science class in 2019. I worked with Michal Golovanevsky and Jeremy Whorton. We implemented a feed-forward, fully-connected neural network with backpropagation from scratch. Given a dataset on Russian housing sales, we mitigated missing value problems and performed variable selection. We then optimized our neural network, as well as a linear regression, to predict housing prices. 
+
+**Exemplifies skills in:** Neural network implementation, data cleaning, model parameter tuning
