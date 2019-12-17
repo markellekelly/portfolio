@@ -1,0 +1,3 @@
+This project was completed for my Advanced Data Science class in 2019. I worked with Jenna Landy and Ashley Jacobson. For this project, we used a Keras neural network to model the CalTech 101 dataset, which contains images in 101 different categories. We then used transfer learning to apply this network, as well as the VGG16 model, to classify the photographer in a dataset of photos taken by both of our professors. 
+
+**Exemplifies skills in:** Transfer learning, Keras, image classification
