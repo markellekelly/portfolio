@@ -1,0 +1,3 @@
+This lab was completed for my Distributed Computing class in Winter 2019. Given a dataset on characteristics and quality of red wines, I implemented a KNN classifier with PySpark. The first program, distances.py, computes and outputs pairwise distances. Then, knn.py performs KNN given a number k and outputs predicted qualities, a confusion matrix, and the overall accuracy of the classifier.
+
+**Exemplifies skills in:** PySpark, machine learning implementation 
