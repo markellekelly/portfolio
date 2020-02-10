@@ -9,7 +9,6 @@
 ### Data Analysis and Exploration
 * [Shiny app exploring Bob Ross dataset](https://github.com/markellekelly/portfolio/tree/master/bobross_app_rstudio2020)
 * [DataFest 2019 women's rugby data exploration](https://github.com/markellekelly/portfolio/tree/master/eda_datafest2019)
-* [Shiny app exploring top Spotify songs of 2017](https://github.com/markellekelly/portfolio/tree/master/spotify_app_STAT331)
 * [US work visas modeling and analysis](https://github.com/markellekelly/portfolio/tree/master/visas_analysis_DATA301)
 ### Miscellaneous
 * [Chatbot for questions on web-scraped Cal Poly CS database](https://github.com/markellekelly/portfolio/tree/master/chatbot_CSC466)
