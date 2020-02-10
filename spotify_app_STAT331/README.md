@@ -1,3 +1,0 @@
-This project was completed in 2018 for my Statistical Computing with R class. I worked on a team with Naavica Adunur and Jenna Landy. We created a simple R Shiny app to explore the top Spotify songs of 2017. Users can run a regression, make a density plot, and view descriptive statistics. This app can be found live at: https://markelle.shinyapps.io/spotify/
-
-**Exemplifies skills in:** data exploration and analysis, R Shiny apps
